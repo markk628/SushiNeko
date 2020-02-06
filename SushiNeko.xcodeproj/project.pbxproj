@@ -19,6 +19,7 @@
 		FE916ABC23EC954F0074327A /* assets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = FE916ABB23EC954F0074327A /* assets.atlas */; };
 		FE916ABE23EC96460074327A /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE916ABD23EC96460074327A /* MSButtonNode.swift */; };
 		FE916AC023EC9C9D0074327A /* SushiPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE916ABF23EC9C9D0074327A /* SushiPiece.swift */; };
+		FE916AC223ECA1C20074327A /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE916AC123ECA1C20074327A /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		FE916ABB23EC954F0074327A /* assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = assets.atlas; sourceTree = "<group>"; };
 		FE916ABD23EC96460074327A /* MSButtonNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
 		FE916ABF23EC9C9D0074327A /* SushiPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiPiece.swift; sourceTree = "<group>"; };
+		FE916AC123ECA1C20074327A /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				FE587A3723EA818F00670EC6 /* AppDelegate.swift */,
 				FE916ABD23EC96460074327A /* MSButtonNode.swift */,
 				FE587A3923EA818F00670EC6 /* GameScene.sks */,
+				FE916AC123ECA1C20074327A /* Character.swift */,
 				FE587A3B23EA818F00670EC6 /* Actions.sks */,
 				FE587A3D23EA818F00670EC6 /* GameScene.swift */,
 				FE916ABF23EC9C9D0074327A /* SushiPiece.swift */,
@@ -171,6 +174,7 @@
 				FE587A3E23EA818F00670EC6 /* GameScene.swift in Sources */,
 				FE587A4023EA818F00670EC6 /* GameViewController.swift in Sources */,
 				FE587A3823EA818F00670EC6 /* AppDelegate.swift in Sources */,
+				FE916AC223ECA1C20074327A /* Character.swift in Sources */,
 				FE916AC023EC9C9D0074327A /* SushiPiece.swift in Sources */,
 				FE916ABE23EC96460074327A /* MSButtonNode.swift in Sources */,
 			);
