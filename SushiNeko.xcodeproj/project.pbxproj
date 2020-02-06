@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE4ADDDA23ECD6B20002D5B7 /* AnimationActions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE4ADDD923ECD6B20002D5B7 /* AnimationActions.sks */; };
 		FE587A3823EA818F00670EC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE587A3723EA818F00670EC6 /* AppDelegate.swift */; };
 		FE587A3A23EA818F00670EC6 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE587A3923EA818F00670EC6 /* GameScene.sks */; };
 		FE587A3C23EA818F00670EC6 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE587A3B23EA818F00670EC6 /* Actions.sks */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE4ADDD923ECD6B20002D5B7 /* AnimationActions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = AnimationActions.sks; sourceTree = "<group>"; };
 		FE587A3423EA818F00670EC6 /* SushiNeko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SushiNeko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE587A3723EA818F00670EC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE587A3923EA818F00670EC6 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		FE587A3623EA818F00670EC6 /* SushiNeko */ = {
 			isa = PBXGroup;
 			children = (
+				FE4ADDD923ECD6B20002D5B7 /* AnimationActions.sks */,
 				FE587A3723EA818F00670EC6 /* AppDelegate.swift */,
 				FE916ABD23EC96460074327A /* MSButtonNode.swift */,
 				FE587A3923EA818F00670EC6 /* GameScene.sks */,
@@ -158,6 +161,7 @@
 				FE916ABA23EC952D0074327A /* sfx_swipe.caf in Resources */,
 				FE587A3A23EA818F00670EC6 /* GameScene.sks in Resources */,
 				FE916ABC23EC954F0074327A /* assets.atlas in Resources */,
+				FE4ADDDA23ECD6B20002D5B7 /* AnimationActions.sks in Resources */,
 				FE587A4523EA819000670EC6 /* Assets.xcassets in Resources */,
 				FE587A4823EA819000670EC6 /* LaunchScreen.storyboard in Resources */,
 				FE587A3C23EA818F00670EC6 /* Actions.sks in Resources */,

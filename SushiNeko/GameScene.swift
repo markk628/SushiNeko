@@ -50,6 +50,37 @@ class GameScene: SKScene {
        sushiTower.append(newPiece)
     }
     
+    func addRandomPieces(total: Int) {
+      /* Add random sushi pieces to the sushi tower */
+
+      for _ in 1...total {
+
+          /* Need to access last piece properties */
+          let lastPiece = sushiTower.last!
+
+          /* Need to ensure we don't create impossible sushi structures */
+          if lastPiece.side != .none {
+             addTowerPiece(side: .none)
+          } else {
+
+             /* Random Number Generator */
+             let rand = arc4random_uniform(100)
+
+             if rand < 45 {
+                /* 45% Chance of a left piece */
+                addTowerPiece(side: .left)
+             } else if rand < 90 {
+                /* 45% Chance of a right piece */
+                addTowerPiece(side: .right)
+             } else {
+                /* 10% Chance of an empty piece */
+                addTowerPiece(side: .none)
+             }
+          }
+      }
+    }
+
+    
     override func didMove(to view: SKView) {
         super.didMove(to: view)
         
@@ -64,5 +95,23 @@ class GameScene: SKScene {
         /* Manually stack the start of the tower */
         addTowerPiece(side: .none)
         addTowerPiece(side: .right)
+        
+        /* Randomize tower to just outside of the screen */
+        addRandomPieces(total: 10)
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        /* Called when a touch begins */
+        /* We only need a single touch here */
+        let touch = touches.first!
+        /* Get touch position in scene */
+        let location = touch.location(in: self)
+        /* Was touch on left/right hand side of screen? */
+        if location.x > size.width / 2 {
+            character.side = .right
+        } else {
+            character.side = .left
+        }
+    }
+
 }
